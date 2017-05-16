@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Ejercicio </title>
+    <link href="main/css/estilos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<!--Creo el body un evento onload que llame la función y me indique si se cargo la página-->
+
+<body onload="paginaCargada()">
+    <h1>Ejercicio de eventos</h1>
+    <ul>
+        <p> Así se crea un addEventListener(), método para conectar un evento clic a un botón.</p>
+        <li> Crear el botón con su respectivo id.</li>
+        <li> El evento click llama a la función "hola mundo".</li>
+        <li> En Javascript: busco por id el boton, le agrego un evento al hacer click q cree una funcion e imprima helloWorld </li>
+        <!--Creo el boton con el id, y un p con id demo-->
+    </ul>
+    <button id="miBoton">Probar</button>
+    <p id="demo"></p>
+    <ul>
+        <p> Ahora se crearán los eventos onmouseover y onmouseout</p>
+        <li> El evento onmouseover se produce cuando el puntero del mouse se mueve a un elemento oa uno de sus hijos. </li>
+        <li> El evento onmouseout se produce cuando el puntero del mouse se mueve fuera de un elemento o de uno de sus hijos. </li>
+    </ul>
+    <div class="checkbox">
+        <input type="submit" name="mouseout" value="onmouseOut" id="onmouseout" onmouseout="mouseOut()">
+        <input type="submit" name="mouseOver " value="onmouseOver" id="onmouseover " onmouseover="mouseOver() ">
+    </div>
+
+
+
+    <script src="main/javascript/javascript.js ">
+    </script>
+</body>
+
+</html>

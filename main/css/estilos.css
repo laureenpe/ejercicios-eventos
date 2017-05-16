@@ -1,0 +1,44 @@
+* {
+    font-family: 'Inconsolata', monospace;
+}
+
+body {
+    background-color: #C8DFEB;
+    margin: 0;
+    padding: 0px;
+    overflow: visible;
+    /*Es el scroll de la página*/
+}
+
+p {
+    text-align: center;
+}
+
+h1 {
+    background: pink;
+    text-align: center;
+    color: blueviolet;
+}
+
+.checkbox {
+    background-color: #fafafa;
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid #ccc;
+    /* IMPORTANTE */
+    text-align: center;
+}
+
+ul,
+a:hover {
+    color: blueviolet;
+}
+
+#miBoton {
+    width: 100%;
+    padding: 10px;
+    border: 2px dashed #CCC;
+    background: white;
+    font-size: 20px;
+    color: deeppink;
+}
