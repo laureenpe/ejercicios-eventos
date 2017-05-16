@@ -15,9 +15,9 @@ p {
 }
 
 h1 {
-    background: pink;
+    background: white;
     text-align: center;
-    color: blueviolet;
+    color: deeppink;
 }
 
 .checkbox {
@@ -31,7 +31,7 @@ h1 {
 
 ul,
 a:hover {
-    color: blueviolet;
+    color: black;
 }
 
 #miBoton {
@@ -39,6 +39,12 @@ a:hover {
     padding: 10px;
     border: 2px dashed #CCC;
     background: white;
-    font-size: 20px;
+    font-size: 25px;
     color: deeppink;
+    font-size: 23;
+}
+
+p#demo {
+    color: deeppink;
+    font-size: 35;
 }
